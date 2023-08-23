@@ -5,7 +5,11 @@
 Após criar um novo programa em assembly (`programa.asm`), execute os seguintes comandos:
 
 ```bash
-as -o programa.o programa.asm
-ld -o programa programa.o
+./compile.sh programa.asm
+```
+
+Irá criar um executável chamado `programa` que pode ser executado com o comando:
+
+```bash
 ./programa
 ```
